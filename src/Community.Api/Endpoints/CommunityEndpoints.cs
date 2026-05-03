@@ -9,7 +9,7 @@ public static class CommunityEndpoints
             .WithDescription("Handles endpoints for community options");
 
         //group.MapPost("/examples", Post);
-        group.MapGet("/examples", Get);
+        group.MapGet("/all", Get);
         //group.MapPut("/examples", Put);
         //group.MapDelete("/examples", Delete);
     }
