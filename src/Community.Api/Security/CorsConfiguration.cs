@@ -13,14 +13,6 @@ public static class CorsConfiguration
                     .AllowAnyHeader()
                     .AllowAnyMethod();
             });
-
-            //options.AddPolicy("Frontend", policy =>
-            //{
-            //    policy
-            //        .WithOrigins("https://domain.com")
-            //        .AllowAnyHeader()
-            //        .AllowAnyMethod();
-            //});
         });
 
 
