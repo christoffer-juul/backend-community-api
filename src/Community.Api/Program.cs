@@ -15,6 +15,8 @@ builder.Services.AddDbContext<DataContext>(x =>
 
 var app = builder.Build();
 
+await DatabaseSeeder.SeedAsync(app.Services);
+
 app.UseCors("All");
 app.UseHttpsRedirection();
 
